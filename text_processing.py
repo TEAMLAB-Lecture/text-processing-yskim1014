@@ -60,6 +60,6 @@ def no_vowels(input_string):
     """
     no_vowel_string=''
     for i in input_string:
-        if i not in 'aeiou':
+        if i.lower() not in 'aeiou':
             no_vowel_string += i
     return no_vowel_string
